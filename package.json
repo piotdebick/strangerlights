@@ -9,7 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "socket.io": "^2.2.0"
+  },
+  "engines": {
+    "node": "9.5.0"
+  },
+  "scripts": {
+    "start": "node server/server.js"
   }
 }
